@@ -12,10 +12,10 @@ composited afterwards from official files and real fonts.
 - Settings: `aspect_ratio: "20:9"`, `resolution: "2k"`, `n: 3`. Output was
   3 PNGs at 3200×1440.
 - Negative prompt: none. Grok Imagine has no negative-prompt field, so the
-  exclusions from `references/applying.md` are stated at the end of the prompt
+  exclusions from `skills/factory-design/references/applying.md` are stated at the end of the prompt
   instead.
 
-Prompt (the style core from `references/applying.md`, adapted to a banner):
+Prompt (the style core from `skills/factory-design/references/applying.md`, adapted to a banner):
 
 > Flat, industrial, minimalist abstract banner artwork on a solid near-black
 > background (#020202). On the right half of the frame, a large field of
@@ -59,7 +59,7 @@ uv run --with pillow python -c "from PIL import Image; \
   which also removes any stray color from the model.
 - Hairlines in white at 9% (divider, header rule) and 18% (tag borders),
   flattened to opaque grays.
-- Official `assets/logos/factory-lockup-white.png`, scaled to 32px tall (1x)
+- Official `skills/factory-design/assets/logos/factory-lockup-white.png`, scaled to 32px tall (1x)
   with no other change. Clear space is at least 48px on every side, more than
   the mark height.
 - `AGENT SKILL` header label, `01 DESIGN LANGUAGE` eyebrow (orange `#EE6018`

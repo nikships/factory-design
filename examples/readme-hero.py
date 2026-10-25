@@ -71,7 +71,7 @@ d.rectangle([0, 128 * S, SPLIT * S, 128 * S + S - 1], fill=BORDER)
 
 # Official lockup, scaled only. Clear space >= mark height (the lockup height).
 LOGO_H, MX, MY = 32, 64, 48
-logo = Image.open(ROOT / "assets/logos/factory-lockup-white.png").convert("RGBA")
+logo = Image.open(ROOT / "skills/factory-design/assets/logos/factory-lockup-white.png").convert("RGBA")
 lw = round(logo.width * LOGO_H * S / logo.height)
 logo = logo.resize((lw, LOGO_H * S), Image.LANCZOS)
 img.paste(logo, (MX * S, MY * S), logo)

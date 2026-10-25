@@ -27,22 +27,25 @@ Invoke it by name (`/factory-design`) or ask for something that should "look lik
 
 ```
 factory-design/
-├── SKILL.md                         Design rules and workflow
-├── tokens.json                      Verified colors, type, radii, motion (machine-readable)
-├── tokens.md                        Same tokens with provenance and re-verification steps
-├── assets/
-│   ├── logos/                       Official lockup, rotor (mark), and factory.ai dot logo, SVG + PNG
-│   └── backgrounds/                 Halftone rotor and Guild graphic
-├── examples/
+├── README.md
+├── examples/                        Not installed with the skill
 │   ├── readme-hero.png              README banner made with this skill
 │   ├── readme-hero.md               How it was generated and composited
 │   ├── readme-hero.py               Pillow compositing script
 │   └── readme-hero-bg.png           Generated background panel (Grok Imagine)
-└── references/
-    ├── applying.md                  Per-medium guide, image-generation prompts, restyle checklist
-    ├── brand-kit.md                 Asset manifest and logo rules
-    ├── community-guidelines.md      Factory Guild community guidelines
-    └── guild-faq-and-help.md        Guild FAQ and where to get help
+└── skills/
+    └── factory-design/              The installable skill
+        ├── SKILL.md                 Design rules and workflow
+        ├── tokens.json              Verified colors, type, radii, motion (machine-readable)
+        ├── tokens.md                Same tokens with provenance and re-verification steps
+        ├── assets/
+        │   ├── logos/               Official lockup, rotor (mark), and factory.ai dot logo, SVG + PNG
+        │   └── backgrounds/         Halftone rotor and Guild graphic
+        └── references/
+            ├── applying.md          Per-medium guide, image-generation prompts, restyle checklist
+            ├── brand-kit.md         Asset manifest and logo rules
+            ├── community-guidelines.md  Factory Guild community guidelines
+            └── guild-faq-and-help.md    Guild FAQ and where to get help
 ```
 
 ## Sources
