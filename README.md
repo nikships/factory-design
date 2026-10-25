@@ -1,5 +1,7 @@
 # factory-design
 
+![factory-design: the Factory (Droid) design language and brand kit, for any medium](examples/readme-hero.png)
+
 An agent skill that carries the [Factory](https://factory.com) (Droid) design language and official brand kit. It is language-, framework-, and medium-agnostic: use it for apps, websites, terminal UIs, slides, READMEs, diagrams, icons, and AI-generated images.
 
 Dark industrial surfaces, hairline borders, near-square corners, uppercase monospace labels, numbered eyebrows, and a sparingly used Factory-orange accent.
@@ -31,6 +33,11 @@ factory-design/
 ├── assets/
 │   ├── logos/                       Official lockup, rotor (mark), and factory.ai dot logo, SVG + PNG
 │   └── backgrounds/                 Halftone rotor and Guild graphic
+├── examples/
+│   ├── readme-hero.png              README banner made with this skill
+│   ├── readme-hero.md               How it was generated and composited
+│   ├── readme-hero.py               Pillow compositing script
+│   └── readme-hero-bg.png           Generated background panel (Grok Imagine)
 └── references/
     ├── applying.md                  Per-medium guide, image-generation prompts, restyle checklist
     ├── brand-kit.md                 Asset manifest and logo rules
